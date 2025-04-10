@@ -7,7 +7,7 @@ public class MaxNumberInArraylist {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of element to enter:");
         int n = sc.nextInt();
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < n; i++) {
             int num = sc.nextInt();
             list.add(num);
         }
